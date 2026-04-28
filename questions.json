@@ -1,0 +1,314 @@
+ [
+   {
+"id": 79,
+"question": "Welches aus der folgenden Auswahl ist eine Initialisierung?",
+"options": {
+"A": "Datentyp x;",
+"B": "int hausnummer = 70;",
+"C": "Variablenname = Wert;",
+"D": "5 int x"
+},
+"correctAnswer": "B",
+"explanation": "Eine Initialisierung bedeutet, dass eine Variable beim Erstellen direkt einen Wert erhält. Sie besteht aus Datentyp, Variablenname und Zuweisung eines Wertes. Beispiel: int x = 5; Dabei wird die Variable x angelegt und sofort mit dem Wert 5 belegt. \nint legt fest, dass nur ganze Zahlen gespeichert werden dürfen\nhausnummer ist der Name der Variable \n= weist der Variable einen Wert zu \n70 ist der gespeicherte Wert \n; beendet die Anweisung in Java "
+},
+{
+"id": 80,
+"question": "Woraus besteht eine Initialisierung?",
+"options": {
+"A": "Scanner, Klasse, Methode",
+"B": "Name, Wert, Semikolon",
+"C": "Datentyp, Name, Wert und Semikolon",
+"D": "Es handelt sich um Main, den Startpunkt des Programms"
+},
+"correctAnswer": "C",
+"explanation": "Eine Initialisierung besteht aus drei Teilen: dem Datentyp, dem Variablennamen und dem Wert. Diese werden mit dem Zuweisungsoperator = verbunden und durch ein Semikolon abgeschlossen. Beispiel: int alter = 18;"
+},
+{
+"id": 81,
+"question": "Wie liest man Zeichenketten von der Tastatur in die Konsole ein?",
+"options": {
+"A": "mit System.out.println",
+"B": "mit Arrays",
+"C": "mit Scanner und nextLine()",
+"D": "mit class input"
+},
+"correctAnswer": "C",
+"explanation": "Für Eingaben von der Tastatur verwendet man in Java die Klasse Scanner. Mit nextLine() kann eine komplette Textzeile eingelesen werden. Beispiel: Scanner sc = new Scanner(System.in); String name = sc.nextLine();"
+},
+{
+"id": 82,
+"question": "Wie funktioniert eine while-Schleife?",
+"options": {
+"A": "Sie wird genau einmal ausgeführt und stoppt dann automatisch",
+"B": "Sie läuft nur mit einer for-Schleife zusammen",
+"C": "Sie prüft zuerst eine Bedingung und wiederholt den Codeblock so lange, wie die Bedingung wahr ist",
+"D": "Sie funktioniert nur im Zusammenspiel mit einem Array"
+},
+"correctAnswer": "C",
+"explanation": "Die while-Schleife ist eine kopfgesteuerte Schleife. Sie prüft zuerst die Bedingung und führt den Codeblock so lange aus, wie diese true ist. Sobald die Bedingung false wird, stoppt die Schleife."
+},
+{
+"id": 83,
+"question": "Was ist Programmieren?",
+"options": {
+"A": "Die Eintragung von Einsen und Nullen",
+"B": "Das Bedienen von Programmen, anstatt Code zu schreiben",
+"C": "Das Erstellen von Anweisungen für einen Computer in einer Programmiersprache",
+"D": "Das Erstellen von Anweisungen für einen Computer in Unicode"
+},
+"correctAnswer": "C",
+"explanation": "Programmieren bedeutet, einem Computer Schritt für Schritt Anweisungen zu geben, damit er Aufgaben automatisch ausführen kann. Diese Anweisungen werden in einer Programmiersprache geschrieben."
+},
+{
+"id": 84,
+"question": "Was ist eine Programmiersprache?",
+"options": {
+"A": "Eine Sprache zur internationalen Verständigung zwischen Programmierern",
+"B": "Die Möglichkeit einer Audioeingabe am PC",
+"C": "Eine formale Sprache, mit der man mit einem Computer kommuniziert",
+"D": "Die Kommunikation zwischen Betriebssystem und User"
+},
+"correctAnswer": "C",
+"explanation": "Eine Programmiersprache ist eine formale Sprache mit festen Regeln (Syntax und Struktur), mit der Menschen Anweisungen für einen Computer schreiben können. Beispiele sind Java, Python oder C++."
+},
+{
+"id": 85,
+"question": "Erklären Sie Syntax und Semantik.",
+"options": {
+"A": "Syntax sind die Schreibregeln, Semantik ist die Bedeutung des Codes",
+"B": "Syntax ist die Bedeutung, Semantik umfasst die Schreibregeln",
+"C": "Syntax ist eine Steuer, welche an Microsoft abgeführt wird, Semantik ist das Bezahlsystem",
+"D": "Syntax beschreibt die Wiederholrate, Semantik liest den Takt"
+},
+"correctAnswer": "A",
+"explanation": "Syntax beschreibt die Schreibregeln und Struktur einer Programmiersprache. Semantik beschreibt die Bedeutung des Codes, also was er tatsächlich bewirkt. Syntax = wie Code geschrieben wird, Semantik = was der Code bedeutet."
+},
+{
+"id": 86,
+"question": "Wann entsteht eine Fehlermeldung?",
+"options": {
+"A": "Bei Semantikfehlern sofort beim Schreiben des Code, bei Syntaxfehlern merkt man es erst später",
+"B": "Eine Fehlermeldung entsteht in Arrays, wenn die Werteingabe inkongruent ist",
+"C": "Bei Syntaxfehlern sofort beim Schreiben oder Kompilieren, bei Semantikfehlern nicht immer sichtbar",
+"D": "Bei Syntaxfehlern, wenn der Wert keine Klasse enthält, bei Semantikfehlern, wenn x leer bleibt"
+},
+"correctAnswer": "C",
+"explanation": "Syntaxfehler entstehen durch falsche Schreibweise und werden meist sofort beim Kompilieren erkannt. Semantikfehler bedeuten, dass der Code zwar korrekt läuft, aber logisch falsch arbeitet und deshalb nicht immer sofort auffällt."
+},
+{
+"id": 87,
+"question": "Welches aus der Auswahl ist eine Klasse in Java?",
+"options": {
+"A": "int class = 2;",
+"B": "Scanner",
+"C": "main",
+"D": "nextLine()"
+},
+"correctAnswer": "B",
+"explanation": "Scanner ist eine echte Java-Klasse aus der Standardbibliothek (java.util). Sie wird verwendet, um Eingaben von der Tastatur zu lesen. int ist ein Datentyp, main ist eine Methode und nextLine() ist eine Methode."
+},
+{
+"id": 88,
+"question": "Was ist die main-Methode?",
+"options": {
+"A": "Die Hauptmethode zum Umgang mit Rechenoperationen",
+"B": "Der Startpunkt eines Java-Programms",
+"C": "Der Startpunkt der Variable",
+"D": "Der Startpunkt der Methode"
+},
+"correctAnswer": "B",
+"explanation": "Die main-Methode ist der feste Einstiegspunkt eines Java-Programms. Wenn ein Programm gestartet wird, beginnt die Ausführung immer dort."
+},
+{
+"id": 89,
+"question": "Was passiert beim Aufruf einer Methode in Java?",
+"options": {
+"A": "Der Code in der Methode speichert die Klasse",
+"B": "Der Code der Methode wird ausgeführt, wenn sie aufgerufen wird",
+"C": "Die Methode wird nur gespeichert und in der Variable initialisiert",
+"D": "Die Methode aktiviert den Compiler"
+},
+"correctAnswer": "B",
+"explanation": "Eine Methode in Java wird nicht automatisch ausgeführt, sondern nur dann, wenn sie aufgerufen wird. Dann springt der Programmfluss in die Methode, führt den Code aus und kehrt anschließend zurück."
+},
+{
+"id": 90,
+"question": "Was ist der Unterschied zwischen Frontend und Backend?",
+"options": {
+"A": "Frontend = Datenbank, Backend = sichtbare Benutzeroberfläche",
+"B": "Frontend = Logik für den User, Backend = Bestimmung des css",
+"C": "Frontend = sichtbare Benutzeroberfläche, Backend = Verarbeitung im Hintergrund",
+"D": "Frontend = Verarbeitung im Hintergrund, Backend = sichtbare Benutzeroberfläche"
+},
+"correctAnswer": "C",
+"explanation": "Frontend ist der sichtbare Teil einer Anwendung (Benutzeroberfläche wie Buttons, Texte, Design). Backend ist der unsichtbare Teil, der im Hintergrund Daten verarbeitet, Logik ausführt und oft mit Datenbanken arbeitet."
+},
+{
+"id": 91,
+"question": "Was bedeutet EVA?",
+"options": {
+"A": "Eingabe – Verarbeitung – Ausgabe",
+"B": "Entwicklung – Verarbeitung – Analyse",
+"C": "Eingabe – Verbindung – Ausgabe",
+"D": "Eingang – Verarbeitung – Anwendung"
+},
+"correctAnswer": "A",
+"explanation": "EVA beschreibt den grundlegenden Ablauf in Programmen: Eingabe von Daten, Verarbeitung dieser Daten und anschließende Ausgabe des Ergebnisses."
+},
+{
+"id": 92,
+"question": "Beispiel für EVA im Programm?",
+"options": {
+"A": "Benutzer bestimmt Methode, startet Programm und liest Fehler aus",
+"B": "Benutzer gibt Zahl ein, Programm verdoppelt sie und gibt Ergebnis aus",
+"C": "Benutzer wählt die EVA-Methode als Startpunkt des Programms und gibt Befehle an",
+"D": "Benutzer evaluiert die Anforderung, vergibt die Aufgabe und analysiert das Ergebnis"
+},
+"correctAnswer": "B",
+"explanation": "EVA steht für Eingabe, Verarbeitung und Ausgabe. Ein typisches Beispiel ist: Der Benutzer gibt eine Zahl ein, das Programm verarbeitet sie (z. B. verdoppeln) und gibt das Ergebnis aus."
+},
+{
+"id": 93,
+"question": "Wozu benutzt man Kommentare im Code?",
+"options": {
+"A": "Kommentare helfen der Search Engine den Code zu verstehen",
+"B": "Um der KI Anweisungen zu geben",
+"C": "Um Code für Menschen verständlicher zu machen, ohne dass er ausgeführt wird",
+"D": "Kommentare sind für die Performance-Bewertung relevant"
+},
+"correctAnswer": "C",
+"explanation": "Kommentare werden vom Compiler ignoriert und dienen nur dazu, den Code für Entwickler verständlicher zu machen."
+},
+{
+"id": 94,
+"question": "Welche Arten von Kommentaren gibt es in Java?",
+"options": {
+"A": "//, /* /, /* */",
+"B": "#, //, --",
+"C": "html, css, js",
+"D": "print, echo, log"
+},
+"correctAnswer": "A",
+"explanation": "In Java gibt es einzeilige Kommentare (//), mehrzeilige Kommentare (/ /) und JavaDoc-Kommentare (/* */), die zur Dokumentation genutzt werden."
+},
+{
+"id": 95,
+"question": "Welche der folgenden Auflistungen enthält wichtige Datentypen in Java?",
+"options": {
+"A": "loop, class, method, object",
+"B": "int, double, boolean, char, String",
+"C": "print, scan, run, execute",
+"D": "java, system, code, program"
+},
+"correctAnswer": "B",
+"explanation": "Datentypen legen fest, welche Art von Daten eine Variable speichern kann, z. B. int für ganze Zahlen, double für Kommazahlen, boolean für Wahrheitswerte, char für einzelne Zeichen und String für Texte."
+},
+{
+"id": 96,
+"question": "Was ist der Unterschied zwischen float und double in Java?",
+"options": {
+"A": "float kann größere Dezimalzahlen speichern als double",
+"B": "Beide sind gleich, außer dass float ein f braucht",
+"C": "double ist genauer und kann größere Dezimalzahlen speichern als float",
+"D": "float wird nur für ganze Zahlen verwendet"
+},
+"correctAnswer": "C",
+"explanation": "double bietet eine höhere Genauigkeit und einen größeren Wertebereich als float. Deshalb wird double in Java häufiger für Dezimalzahlen verwendet."
+},
+{
+"id": 97,
+"question": "Was muss man bei float in Java beachten?",
+"options": {
+"A": "Bei Dezimalzahlen muss ein f an den Wert angehängt werden",
+"B": "float kann nur ganze Zahlen speichern",
+"C": "Bei Variablen muss man auf float verzichten",
+"D": "Bei float muss immer auf eckige Klammern geachtet werden"
+},
+"correctAnswer": "A",
+"explanation": "Bei float muss ein f oder F an den Zahlenwert angehängt werden, da Java Dezimalzahlen standardmäßig als double interpretiert."
+},
+{
+"id": 98,
+"question": "Welche Werte kann boolean in Java annehmen?",
+"options": {
+"A": "true oder false",
+"B": "nur Zahlen wie 0 oder 1",
+"C": "beliebige Wörter als Text",
+"D": "nur den Wert 0"
+},
+"correctAnswer": "A",
+"explanation": "Der Datentyp boolean kann nur zwei Werte annehmen: true oder false. Er wird für logische Entscheidungen im Programm verwendet."
+},
+{
+"id": 99,
+"question": "Was ist der Unterschied zwischen char und String in Java?",
+"options": {
+"A": "char speichert mehrere Zeichen, String nur ein einzelnes",
+"B": "char speichert ein einzelnes Zeichen, String eine Folge mehrerer Zeichen",
+"C": "Beide sind gleich",
+"D": "char legt den Charakter einer Variable fest, String nicht"
+},
+"correctAnswer": "B",
+"explanation": "char speichert genau ein einzelnes Zeichen, während String eine Zeichenkette aus mehreren Zeichen speichert, z. B. Wörter oder Sätze."
+},
+{
+"id": 100,
+"question": "Warum benutzt String in Java doppelte Anführungszeichen?",
+"options": {
+"A": "Doppelte Anführungszeichen helfen beim Verständnis",
+"B": "Bei Zeichenketten ist das der Standard, während char nur ein einzelnes Zeichen speichert",
+"C": "weil das so ist",
+"D": "Da String ebenfalls eine Methode ist, zeigen die Anführungszeichen an, dass etwas anderes passiert"
+},
+"correctAnswer": "B",
+"explanation": "In Java werden Strings mit doppelten Anführungszeichen geschrieben, da sie mehrere Zeichen enthalten. char verwendet einfache Anführungszeichen für einzelne Zeichen."
+},
+{
+"id": 101,
+"question": "Was macht die Scanner-Klasse in Java?",
+"options": {
+"A": "erstellt automatisch neue Programme",
+"B": "liest Eingaben von der Konsole ein",
+"C": "löscht Variablen aus dem Speicher",
+"D": "Gibt Werte auf der Konsole aus"
+},
+"correctAnswer": "B",
+"explanation": "Die Scanner-Klasse wird verwendet, um Benutzereingaben von der Konsole zu lesen. Sie muss importiert und instanziiert werden, bevor sie genutzt werden kann."
+},
+{
+"id": 102,
+"question": "Wie wird ein Scanner in Java korrekt initialisiert?",
+"options": {
+"A": "Scanner sc = new Scanner(System.in);",
+"B": "Scanner sc = new Scanner(System.out);",
+"C": "Scanner sc = new System.Scanner(in);",
+"D": "Scanner sc = new Input();"
+},
+"correctAnswer": "A",
+"explanation": "Um in Java Eingaben von der Tastatur zu lesen, wird ein Scanner-Objekt erstellt. Dafür nutzt man die Klasse Scanner und verbindet sie mit System.in, der Standardeingabe (Tastatur). Scanner sc = new Scanner(System.in); erstellt ein Scanner-Objekt, das Eingaben lesen kann."
+},
+{
+"id": 103,
+"question": "Warum braucht man System.in in Java?",
+"options": {
+"A": "für Ausgaben in der Konsole",
+"B": "Damit man in das Programmsystem hineinschreiben kann",
+"C": "für Tastatureingaben",
+"D": "Dadurch wird die Verbindung zur Klasse hergestellt"
+},
+"correctAnswer": "C",
+"explanation": "System.in steht in Java für die Standardeingabe, also meist die Tastatur. Es wird verwendet, um Eingaben vom Benutzer in das Programm zu übertragen."
+},
+{
+"id": 104,
+"question": "Was macht nextLine() in Java?",
+"options": {
+"A": "liest eine einzelne Zahl ein",
+"B": "löscht bereits gespeicherte Eingaben",
+"C": "liest eine komplette Zeile als Text ein",
+"D": "beendet das Programm sofort"
+},
+"correctAnswer": "C",
+"explanation": "nextLine() liest eine komplette Zeile aus der Konsole ein und speichert sie als String. Dabei wird der gesamte Text bis zum Drücken der Enter-Taste übernommen."
+}
+]
